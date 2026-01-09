@@ -80,7 +80,7 @@ Users can add or remove names to simulate progress.
 
 ## 🧭 Project Scope & Status
 
-> Originally developed as a mentored student project (2022) and restored/refactored in 2025.
+> Originally developed as a mentored student project (2024) and restored/refactored in 2026.
 
 This repository is intended as a **front-end prototype and learning artifact**, not a production-ready application.
 
