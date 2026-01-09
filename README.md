@@ -95,19 +95,19 @@ Potential future extensions include:
 ## 📸 Screenshots
 
 ### Home / Topic Selection
-![Home Page](screenshots/home.jpg)
+<img src="screenshots/home.jpg" width="350" />
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.jpg)
+<img src="screenshots/dashboard.jpg" width="350" />
 
 ### Tasks
-![Tasks Page](screenshots/tasks.jpg)
+<img src="screenshots/tasks.jpg" width="350" />
 
 ### Planning
-![Planning Page](screenshots/planning.jpg)
+<img src="screenshots/planning.jpg" width="350" />
 
 ### Quiz
-![Quiz Page](screenshots/quiz.jpg)
+<img src="screenshots/quiz.jpg" width="350" />
 
 
 
