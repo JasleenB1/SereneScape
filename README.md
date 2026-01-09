@@ -40,12 +40,15 @@ This project does **not** include a backend, database, or authentication system.
 - npm
 
 ### Installation & Run
+### Installation & Run
 
 ```bash
+cd App
 npm install
 npm start
+```
 
-### 💾 Data Persistence
+## 💾 Data Persistence
 
 SereneScape stores all user progress locally in the browser using `localStorage`, including:
 
@@ -61,7 +64,7 @@ Clearing browser storage or using a different device will reset progress.
 
 ---
 
-### 🏅 Badges & Leaderboard
+## 🏅 Badges & Leaderboard
 
 ### Badges
 Badges are awarded automatically based on:
@@ -78,7 +81,7 @@ Users can add or remove names to simulate progress.
 
 ---
 
-### 🧭 Project Scope & Status
+## 🧭 Project Scope & Status
 
 > Originally developed as a mentored student project (2024) and restored/refactored in 2026.
 
