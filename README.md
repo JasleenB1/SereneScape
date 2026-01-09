@@ -94,7 +94,21 @@ Potential future extensions include:
 
 ## 📸 Screenshots
 
-_(Optional — add screenshots or GIFs here to showcase the dashboard and flow)_
+### Home / Topic Selection
+![Home Page](screenshots/home.jpg)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.jpg)
+
+### Tasks
+![Tasks Page](screenshots/tasks.jpg)
+
+### Planning
+![Planning Page](screenshots/planning.jpg)
+
+### Quiz
+![Quiz Page](screenshots/quiz.jpg)
+
 
 
 ## 👩‍💻 Authorship & Credits
