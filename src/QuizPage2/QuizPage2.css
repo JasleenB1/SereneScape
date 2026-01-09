@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+
+.Quiz2 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+  font-family: "Inter", sans-serif;
+  background: #7f8f7a;
+}
+
+.Quiz2Card {
+  width: min(760px, 100%);
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 22px;
+  padding: 24px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+}
+
+.BackBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.Quiz2Title {
+  margin: 0;
+  color: #020070;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.Quiz2Subtitle {
+  margin: 10px 0 18px;
+  opacity: 0.85;
+}
+
+.PreviewBox {
+  background: rgba(2, 0, 112, 0.05);
+  border: 1px solid rgba(2, 0, 112, 0.08);
+  border-radius: 16px;
+  padding: 14px;
+  margin-bottom: 16px;
+}
+
+.PreviewTitle {
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: #020070;
+}
+
+.PreviewList {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.InputRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.Quiz2Input {
+  flex: 1;
+  height: 52px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 0 16px;
+  font-size: 16px;
+  outline: none;
+}
+
+.AddBtn {
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 800;
+  background: rgba(2, 0, 112, 0.08);
+}
+
+.Chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.Chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.ChipText {
+  font-size: 14px;
+}
+
+.ChipX {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.ContinueBtn {
+  margin-top: 18px;
+  width: 100%;
+  border: none;
+  border-radius: 999px;
+  padding: 16px 18px;
+  font-weight: 900;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.06);
+}

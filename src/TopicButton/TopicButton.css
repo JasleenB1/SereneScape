@@ -1,0 +1,49 @@
+.TopicButton {
+  background: rgba(255, 255, 255, 0.78);
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 16px;
+  border-radius: 18px;
+  width: 100%;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.08s ease-in-out, box-shadow 0.08s ease-in-out;
+}
+
+.TopicButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.TopicButton__icon {
+  width: 92px;
+  height: 92px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TopicButton__icon img {
+  width: 86px;
+  height: 86px;
+  border-radius: 999px;
+  object-fit: contain; /* keep the icon crisp */
+}
+
+.TopicButton__text {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #020070;
+}

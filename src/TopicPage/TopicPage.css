@@ -1,0 +1,72 @@
+.TopicPage {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+  background: #7f8f7a;
+}
+
+.TopicCard {
+  width: min(760px, 100%);
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 22px;
+  padding: 24px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+}
+
+.BackBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.Title {
+  margin: 0;
+  color: #020070;
+  font-size: 52px;
+  line-height: 1.05;
+}
+
+.Subtitle {
+  margin: 10px 0 22px;
+  opacity: 0.85;
+  font-size: 18px;
+}
+
+.Questions {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.Question {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Label {
+  font-weight: 700;
+}
+
+.Input {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 12px 14px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.ContinueBtn {
+  margin-top: 18px;
+  width: 100%;
+  border: none;
+  border-radius: 999px;
+  padding: 16px 18px;
+  font-weight: 900;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.06);
+}

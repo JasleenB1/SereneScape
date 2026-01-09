@@ -1,0 +1,30 @@
+.QuizPage {
+  min-height: 100vh;
+  background: #7f8f7a; /* your old greenish tone */
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+
+.content {
+  width: min(520px, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.heading {
+  font-style: italic;
+  color: #020070;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.topicGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}

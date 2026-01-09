@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap");
+
+.Dash {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+  font-family: "Inter", sans-serif;
+  background: #7f8f7a;
+}
+
+.DashCard {
+  width: min(1000px, 100%);
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 22px;
+  padding: 24px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+}
+
+.DashTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.DashTitle {
+  margin: 0;
+  color: #020070;
+  font-size: 44px;
+  line-height: 1.05;
+}
+
+.DashSubtitle {
+  margin: 10px 0 0;
+  opacity: 0.85;
+}
+
+.StreakPill {
+  background: rgba(2, 0, 112, 0.06);
+  border: 1px solid rgba(2, 0, 112, 0.1);
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.Insight {
+  background: rgba(2, 0, 112, 0.05);
+  border: 1px solid rgba(2, 0, 112, 0.08);
+  border-radius: 16px;
+  padding: 14px;
+  margin: 14px 0 18px;
+}
+
+.InsightTitle {
+  font-weight: 900;
+  color: #020070;
+  margin-bottom: 6px;
+}
+
+.InsightBody {
+  opacity: 0.9;
+}
+
+.Grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+@media (min-width: 900px) {
+  .Grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.SectionCard {
+  background: rgba(2, 0, 112, 0.04);
+  border: 1px solid rgba(2, 0, 112, 0.08);
+  border-radius: 18px;
+  padding: 14px;
+}
+
+.SectionHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.SectionTitle {
+  font-weight: 900;
+  color: #020070;
+  font-size: 18px;
+}
+
+.SectionSub {
+  opacity: 0.85;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.TaskList {
+  margin: 12px 0 0;
+  padding-left: 18px;
+}
+
+.GhostBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 800;
+  color: #020070;
+  opacity: 0.9;
+}
+
+.BottomGrid {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+@media (min-width: 900px) {
+  .BottomGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.MiniCard {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 18px;
+  padding: 14px;
+}
+
+.MiniTitle {
+  font-weight: 900;
+  color: #020070;
+  margin-bottom: 8px;
+}
+
+.MiniMuted {
+  opacity: 0.85;
+  margin: 0 0 10px;
+}
+
+.MiniList {
+  margin: 0 0 10px;
+  padding-left: 18px;
+}
+
+.MiniBtn {
+  border: none;
+  border-radius: 999px;
+  padding: 10px 12px;
+  cursor: pointer;
+  font-weight: 800;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.PrimaryBtn {
+  width: 100%;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 16px;
+  cursor: pointer;
+  font-weight: 900;
+  background: rgba(2, 0, 112, 0.08);
+}
+
+.DangerBtn {
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 16px;
+  cursor: pointer;
+  font-weight: 900;
+  background: rgba(239, 164, 152, 0.4);
+}
+
+/* Badges */
+.BadgesRow{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+@media (min-width: 900px){
+  .BadgesRow{ grid-template-columns: 1fr 1fr; }
+}
+.Badge{
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 14px;
+  padding: 10px 12px;
+}
+.BadgeLabel{
+  font-weight: 900;
+  color: #020070;
+}
+.BadgeDesc{
+  opacity: 0.85;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* Leaderboard */
+.Leaderboard{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.LeaderRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 14px;
+  padding: 10px 12px;
+}
+.LeaderLeft{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Rank{
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight: 900;
+  background: rgba(2,0,112,0.08);
+  color: #020070;
+}
+.LeaderName{
+  font-weight: 900;
+}
+.LeaderMeta{
+  font-size: 12px;
+  opacity: 0.8;
+}
+.LeaderRight{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.StreakChip{
+  background: rgba(2,0,112,0.08);
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+.TinyBtn{
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 800;
+  color: #020070;
+  opacity: 0.9;
+}
+
+.AddFriendRow{
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+.FriendInput{
+  flex: 1;
+  height: 42px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.12);
+  padding: 0 14px;
+}
+.AddFriendBtn{
+  height: 42px;
+  border: none;
+  border-radius: 999px;
+  padding: 0 14px;
+  cursor: pointer;
+  font-weight: 900;
+  background: rgba(2,0,112,0.08);
+}
